@@ -17,5 +17,11 @@ The following tools were used in the construction of the project:
 - [GitHub Page](https://r-santtos.github.io/DevLinks/)
 
 <h1 align="center">
-  <img alt="InCicle" title="layout menos que 10" src="https://github.com/r-santtos/InCicle-develop/blob/develop/images/desktop.png" />
+  <img alt="DevLinks" title="layout" src="https://raw.githubusercontent.com/r-santtos/DevLinks/main/assets/dark-desk.png" width="300" />
+  <img alt="DevLinks" title="layout" src="https://raw.githubusercontent.com/r-santtos/DevLinks/main/assets/light-desk.png"width="300" />
+</h1>
+
+<h1 align="center">
+  <img alt="DevLinks" title="layout" src="https://raw.githubusercontent.com/r-santtos/DevLinks/main/assets/ligh-mobile.png" width="300" />
+  <img alt="DevLinks" title="layout" src="https://raw.githubusercontent.com/r-santtos/DevLinks/main/assets/dark-mobile.png"width="300" />
 </h1>
