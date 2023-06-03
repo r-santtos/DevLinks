@@ -7,6 +7,11 @@ const titleH1 = document.getElementsByTagName('h1');
 const btns = document.getElementsByTagName('button');
 const links = document.getElementsByTagName('a');
 
+const iconLinkedin = document.getElementById('linkedin');
+const iconGithub = document.getElementById('github');
+const iconYoutube = document.getElementById('youtube');
+const iconInstagram = document.getElementById('instagram');
+
 btnTheme.addEventListener("click", () => {
   body.classList.toggle('light-mode');
   verificationClass();
@@ -14,9 +19,11 @@ btnTheme.addEventListener("click", () => {
 
 function verificationClass() {
   if (body.classList.contains('light-mode')) {
+    socialIconDark();
     colorTxtThemeLight();
     imgMoon();
   } else {
+    socialIconLight();
     colorTxtThemeDark();
     imgSun();
   }
@@ -62,4 +69,18 @@ function imgMoon() {
 
 function imgSun() {
   imgSunMoon.src='./assets/sun.svg';
+}
+
+function socialIconLight() {
+  iconLinkedin.src='./assets/linkedin.svg';
+  iconGithub.src='./assets/github.svg';
+  iconYoutube.src='./assets/youtube.svg';
+  iconInstagram.src='./assets/instagram.svg';
+}
+
+function socialIconDark() {
+  iconLinkedin.src='./assets/dark/linkedin.svg';
+  iconGithub.src='./assets/dark/github.svg';
+  iconYoutube.src='./assets/dark/youtube.svg';
+  iconInstagram.src='./assets/dark/instagram.svg';
 }
