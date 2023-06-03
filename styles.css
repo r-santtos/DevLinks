@@ -26,7 +26,7 @@ a:hover, button:hover {
 h1 {
   margin-bottom: 16px;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 1.2rem;
 }
 
 header img {
@@ -60,8 +60,8 @@ header img {
   max-width: 320px;
 }
 .container-theme {
-  width: 50px;
-  height: 20px;
+  width: 60px;
+  height: 25px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -72,8 +72,8 @@ header img {
   margin-bottom: 16px;
 }
 .btn-theme {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   border-radius: 100%;
   background-color: #f5f5f5;
   display: flex;
@@ -89,7 +89,7 @@ header img {
 }
 #links button { margin-bottom: 8px;}
 #links button a {
-  height: 40px;
+  height: 50px;
   padding: 16px;
   box-shadow: 0px 0px 5px #ffffff;
   border-radius: 4px;
