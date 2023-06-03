@@ -1,3 +1,4 @@
+const containerTheme = document.getElementById('container-theme');
 const btnTheme = document.getElementById('btn-theme');
 const imgSunMoon = document.getElementById('imgSunMoon');
 const body = document.getElementById("body-theme");
@@ -19,14 +20,26 @@ btnTheme.addEventListener("click", () => {
 
 function verificationClass() {
   if (body.classList.contains('light-mode')) {
-    socialIconDark();
-    colorTxtThemeLight();
     imgMoon();
+    FlexDirectionLeft()
+    colorTxtThemeLight();
+    socialIconDark();
   } else {
-    socialIconLight();
-    colorTxtThemeDark();
     imgSun();
+    FlexDirectionRight()
+    colorTxtThemeDark();
+    socialIconLight();
   }
+}
+
+function FlexDirectionLeft() {
+  btnTheme.style.right = 0;
+  btnTheme.style.left = "unset";
+}
+
+function FlexDirectionRight() {
+  btnTheme.style.left = 0;
+  btnTheme.style.right = "unset";
 }
 
 function colorTxtThemeLight() {
