@@ -1,3 +1,4 @@
+const containerTheme = document.getElementById('container-theme');
 const btnTheme = document.getElementById('btn-theme');
 const imgSunMoon = document.getElementById('imgSunMoon');
 const body = document.getElementById("body-theme");
@@ -7,6 +8,11 @@ const titleH1 = document.getElementsByTagName('h1');
 const btns = document.getElementsByTagName('button');
 const links = document.getElementsByTagName('a');
 
+const iconLinkedin = document.getElementById('linkedin');
+const iconGithub = document.getElementById('github');
+const iconYoutube = document.getElementById('youtube');
+const iconInstagram = document.getElementById('instagram');
+
 btnTheme.addEventListener("click", () => {
   body.classList.toggle('light-mode');
   verificationClass();
@@ -14,12 +20,26 @@ btnTheme.addEventListener("click", () => {
 
 function verificationClass() {
   if (body.classList.contains('light-mode')) {
-    colorTxtThemeLight();
     imgMoon();
+    FlexDirectionLeft()
+    colorTxtThemeLight();
+    socialIconDark();
   } else {
-    colorTxtThemeDark();
     imgSun();
+    FlexDirectionRight()
+    colorTxtThemeDark();
+    socialIconLight();
   }
+}
+
+function FlexDirectionLeft() {
+  btnTheme.style.right = 0;
+  btnTheme.style.left = "unset";
+}
+
+function FlexDirectionRight() {
+  btnTheme.style.left = 0;
+  btnTheme.style.right = "unset";
 }
 
 function colorTxtThemeLight() {
@@ -62,4 +82,18 @@ function imgMoon() {
 
 function imgSun() {
   imgSunMoon.src='./assets/sun.svg';
+}
+
+function socialIconLight() {
+  iconLinkedin.src='./assets/linkedin.svg';
+  iconGithub.src='./assets/github.svg';
+  iconYoutube.src='./assets/youtube.svg';
+  iconInstagram.src='./assets/instagram.svg';
+}
+
+function socialIconDark() {
+  iconLinkedin.src='./assets/dark/linkedin.svg';
+  iconGithub.src='./assets/dark/github.svg';
+  iconYoutube.src='./assets/dark/youtube.svg';
+  iconInstagram.src='./assets/dark/instagram.svg';
 }
