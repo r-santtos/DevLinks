@@ -1,0 +1,12 @@
+[
+  {"id": "Moradia"},
+  {"id": "Alimentação"},
+  {"id": "Transporte"},
+  {"id": "Saúde"},
+  {"id": "Educação"},
+  {"id": "Lazer"},
+  {"id": "Vestuário"},
+  {"id": "Empréstimos"},
+  {"id": "Impostos"},
+  {"id": "Outras despesas"}
+]
