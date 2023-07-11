@@ -1,11 +1,12 @@
 [
-  {"id": "Salários"},
-  {"id": "Rendas extras"},
-  {"id": "Vendas"},
-  {"id": "Comissões"},
   {"id": "Bonificações"},
-  {"id": "Prêmios e sorteios"},
+  {"id": "Comissões"},
   {"id": "Pagamentos de juros e dividendos"},
   {"id": "Presentes em dinheiro"},
+  {"id": "Prêmios e sorteios"},
+  {"id": "Rendas extras"},
+  {"id": "Salários"},
+  {"id": "Venda ou resgate de ativos"},
+  {"id": "Vendas"},
   {"id": "Outras receitas"}
 ]

@@ -1,20 +1,13 @@
 [
   {"id": "Ações"},
-  {"id": "Alimentação"},
   {"id": "Certificados Bancário (CDB)"},
   {"id": "Commodities"},
   {"id": "Criptomoedas"},
-  {"id": "Educação"},
-  {"id": "Empréstimos"},
   {"id": "Fundos de Investimento"},
   {"id": "Fundos Imobiliários"},
-  {"id": "Impostos"},
+  {"id": "Imoveis"},
   {"id": "Investimento em Startups"},
-  {"id": "Lazer"},
-  {"id": "Moradia"},
-  {"id": "Outras despesas"},
-  {"id": "Saúde"},
+  {"id": "Outros"},
   {"id": "Títulos"},
-  {"id": "Transporte"},
-  {"id": "Vestuário"}
+  {"id": "Veiculos"}
 ]
