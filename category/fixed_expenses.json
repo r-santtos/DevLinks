@@ -1,11 +1,9 @@
 [
-  {"id": "Ações"},
-  {"id": "Títulos"},
-  {"id": "Fundos de Investimento"},
-  {"id": "Fundos Imobiliários"},
-  {"id": "Commodities"},
-  {"id": "Criptomoedas"},
-  {"id": "Investimento em Startups"},
-  {"id": "Certificados Bancário (CDB)"},
+  {"id": "Alimentação"},
+  {"id": "Moradia"},
+  {"id": "Água"},
+  {"id": "Energia"},
+  {"id": "Seguros"},
+  {"id": "Transporte"},
   {"id": "Outros"}
 ]
