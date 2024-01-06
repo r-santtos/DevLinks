@@ -1,14 +1,8 @@
 [
-  {"id": "Alimentação"},
-  {"id": "Criptomoedas"},
-  {"id": "Despesas diversas"},
   {"id": "Educação"},
-  {"id": "Impostos"},
   {"id": "Lazer e entretenimento"},
-  {"id": "Moradia"},
   {"id": "Saúde"},
   {"id": "Seguros"},
-  {"id": "Transporte"},
   {"id": "Vestuário e acessórios"},
   {"id": "Outros"},
 ]
