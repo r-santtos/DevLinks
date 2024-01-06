@@ -1,8 +1,8 @@
 [
-  {"id": "Alimentação"},
-  {"id": "Moradia"},
   {"id": "Água"},
+  {"id": "Alimentação"},
   {"id": "Energia"},
+  {"id": "Moradia"},
   {"id": "Seguros"},
   {"id": "Transporte"},
   {"id": "Outros"}
