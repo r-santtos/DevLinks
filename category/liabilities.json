@@ -1,8 +1,17 @@
 [
+  {"id": "Ações"},
+  {"id": "Certificados Bancário (CDB)"},
+  {"id": "Commodities"},
+  {"id": "Criptomoedas"},
   {"id": "Educação"},
+  {"id": "Fundos de Investimento"},
+  {"id": "Fundos Imobiliários"},
+  {"id": "Imoveis"},
+  {"id": "Investimento em Startups"},
   {"id": "Lazer e entretenimento"},
   {"id": "Saúde"},
   {"id": "Seguros"},
+  {"id": "Títulos"},
   {"id": "Vestuário e acessórios"},
   {"id": "Outros"}
 ]
